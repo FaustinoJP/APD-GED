@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "refresh_token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyLWdlc3Rvci0wMDEiLCJlbWFpbCI6Imdlc3RvckBmYXVzdHdhcmUuYW8iLCJyb2xlSWQiOiJyb2xlLWdlc3RvciIsInBlcm1pc3Npb25zIjpbImRvY3VtZW50cy5jcmVhdGUiLCJkb2N1bWVudHMucmVhZCIsImRvY3VtZW50cy51cGRhdGUiLCJkb2N1bWVudHMuZGVsZXRlIiwiZG9jdW1lbnRzLmZvcndhcmQiLCJkb2N1bWVudHMuc2lnbiIsImRvY3VtZW50cy5hcHByb3ZlIiwiZG9jdW1lbnRzLmdpdmVPcGluaW9uIiwiZG9jdW1lbnRzLmRpc3BhdGNoIiwiZG9jdW1lbnRzLmRlZmVyIiwiZG9jdW1lbnRzLmFyY2hpdmUiLCJkb2N1bWVudHMuZXhwb3J0IiwiY29uZmlnLnR5cGVzLm1hbmFnZSIsImNvbmZpZy5lbnRpdGllcy5tYW5hZ2UiLCJjb25maWcudGVtcGxhdGVzLm1hbmFnZSIsImF1ZGl0LnJlYWQiLCJleHBvcnRzLnJ1biIsImZpbGVzLm1hbmFnZSIsIm5vdGlmaWNhdGlvbnMucmVhZCIsImRhc2hib2FyZC52aWV3Il0sImlhdCI6MTc4MTY5NDQ1NywiZXhwIjoxNzgyMjk5MjU3fQ.o2kCMjies0vWq9TeJG9QX7O5QtrZyedQmkzRX95S284",
+      "domain": "localhost",
+      "path": "/api/v1/auth/refresh",
+      "expires": 1782299257.974947,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:3005",
+      "localStorage": [
+        {
+          "name": "gd:counter:saida:2024",
+          "value": "2"
+        },
+        {
+          "name": "gd:counter:entrada:2024",
+          "value": "2"
+        },
+        {
+          "name": "gd:counter:interno:2024",
+          "value": "2"
+        },
+        {
+          "name": "gd:seeded:v2",
+          "value": "true"
+        },
+        {
+          "name": "gd:seeded:templates:v1",
+          "value": "true"
+        },
+        {
+          "name": "gd:session",
+          "value": "{\"state\":{\"currentUser\":{\"id\":\"user-gestor-001\",\"nome\":\"Maria Fernanda\",\"email\":\"gestor@faustware.ao\",\"roleId\":\"role-gestor\",\"ativo\":true,\"criadoEm\":\"2024-01-10T00:00:00.000Z\"},\"currentRole\":{\"id\":\"role-gestor\",\"nome\":\"Gestor\",\"descricao\":\"Gestão documental completa e configuração de tipos e entidades.\",\"permissions\":[\"documents.create\",\"documents.read\",\"documents.update\",\"documents.delete\",\"documents.forward\",\"documents.sign\",\"documents.approve\",\"documents.giveOpinion\",\"documents.dispatch\",\"documents.defer\",\"documents.archive\",\"documents.export\",\"config.types.manage\",\"config.entities.manage\",\"config.templates.manage\",\"audit.read\",\"exports.run\",\"files.manage\",\"notifications.read\",\"dashboard.view\"]},\"isAuthenticated\":true},\"version\":0}"
+        }
+      ]
+    }
+  ]
+}
